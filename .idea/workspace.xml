@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adabfbca-5964-4b30-baaa-cd46e964aed6" name="Default Changelist" comment="" />
+    <list default="true" id="adabfbca-5964-4b30-baaa-cd46e964aed6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQPubSub/mainPub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQPubSub/mainSub1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQPubSub/mainSub2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQWork/mainWorkPublish.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQWork/mainWorkReceive1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RabbitMQWork/mainWorkReceive2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RabbitMQ/rabbitmq.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/RabbitMQ/rabbitmq.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +27,20 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
-        <option value="file://$PROJECT_DIR$/../flashsale" />
+        <option value="file://$PROJECT_DIR$" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1RGnqdoAOhOvosDq8hKMmO42pTh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -31,10 +48,14 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/RabbitMQPubSub" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/RabbitMQPubSub" />
+      <recent name="$PROJECT_DIR$/src/RabbitMQWork" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/main" />
@@ -53,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build mainSimplePublish.go (2)">
+  <component name="RunManager" selected="Go Build.go build RabbitMQPubSub (2)">
     <configuration default="true" type="GoAppEngineRunConfiguration" factoryName="Go App Engine">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -68,43 +89,48 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mainSimplePublish.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build RabbitMQPubSub (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/mainSimplePublish.go" />
+      <filePath value="$PROJECT_DIR$/src/RabbitMQPubSub/mainSub2.go" />
+      <package value="RabbitMQPubSub" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mainSimplePublish.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build RabbitMQPubSub (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../flashsale/src/mainSimplePublish.go" />
+      <filePath value="$PROJECT_DIR$/src/RabbitMQPubSub/mainPub.go" />
+      <package value="RabbitMQPubSub" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mainSimpleReceive.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build RabbitMQPubSub" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/../flashsale/src/mainSimpleReceive.go" />
+      <filePath value="$PROJECT_DIR$/src/RabbitMQPubSub/mainSub1.go" />
+      <package value="RabbitMQPubSub" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build mainSimpleReceive.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build RabbitMQWork (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/mainSimpleReceive.go" />
+      <filePath value="$PROJECT_DIR$/src/RabbitMQWork/mainWorkReceive2.go" />
+      <package value="RabbitMQWork" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build RabbitMQWork (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="flashsale" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/main.go" />
+      <filePath value="$PROJECT_DIR$/src/RabbitMQWork/mainWorkPublish.go" />
+      <package value="RabbitMQWork" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -129,23 +155,36 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build rabbitmq/" />
-      <item itemvalue="Go Build.go build mainSimplePublish.go (1)" />
-      <item itemvalue="Go Build.go build mainSimpleReceive.go" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build mainSimpleReceive.go (1)" />
-      <item itemvalue="Go Build.go build mainSimplePublish.go (2)" />
+      <item itemvalue="Go Build.go build RabbitMQWork (1)" />
+      <item itemvalue="Go Build.go build RabbitMQWork (2)" />
+      <item itemvalue="Go Build.go build RabbitMQPubSub" />
+      <item itemvalue="Go Build.go build RabbitMQPubSub (1)" />
+      <item itemvalue="Go Build.go build RabbitMQPubSub (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build mainSimplePublish.go (2)" />
-        <item itemvalue="Go Build.go build mainSimpleReceive.go (1)" />
-        <item itemvalue="Go Build.go build mainSimplePublish.go (1)" />
-        <item itemvalue="Go Build.go build mainSimpleReceive.go" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build RabbitMQPubSub (2)" />
+        <item itemvalue="Go Build.go build RabbitMQPubSub (1)" />
+        <item itemvalue="Go Build.go build RabbitMQPubSub" />
+        <item itemvalue="Go Build.go build RabbitMQWork (2)" />
+        <item itemvalue="Go Build.go build RabbitMQWork (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

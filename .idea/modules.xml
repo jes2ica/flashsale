@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../imooc-rabbitmq/.idea/imooc-rabbitmq.iml" filepath="$PROJECT_DIR$/../imooc-rabbitmq/.idea/imooc-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imooc-rabbitmq/.idea/flashsale.iml" filepath="$PROJECT_DIR$/../imooc-rabbitmq/.idea/flashsale.iml" />
     </modules>
   </component>
 </project>
